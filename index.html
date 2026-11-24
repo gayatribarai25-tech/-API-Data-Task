@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>API Data Fetcher</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <header>
+            <h1>API Data Fetcher</h1>
+            <p>Fetch and display user information from a public API</p>
+        </header>
+
+        <!-- API Controls -->
+        <section class="api-section">
+
+            <div>
+                <h2>User Information</h2>
+                <p>Fetch user data from JSONPlaceholder API</p>
+            </div>
+
+            <button id="fetchBtn">Fetch Users</button>
+
+        </section>
+
+        <!-- Loading and Error Message -->
+        <p id="statusMessage" class="status-message"></p>
+
+        <!-- User Count -->
+        <div class="user-count">
+            <h3>Total Users: <span id="userCount">0</span></h3>
+        </div>
+
+        <!-- User Cards -->
+        <section id="userContainer" class="user-container">
+
+            <!-- JavaScript will display users here -->
+
+        </section>
+
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
